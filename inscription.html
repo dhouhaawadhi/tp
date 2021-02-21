@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>inscription en licence</h1>
+    <fieldset>
+    
+        <legend>information personnelles</legend>
+       <dl> 
+        <dt>
+            <label> Votre nom : </label> <INPUT TYPE="text" NAME="nom"  SIZE=15
+                MAXLENGTH=30>
+
+        </dt>
+        <dt>
+            <label> Votre prenom : </label> <INPUT TYPE="text" NAME="prenom" SIZE=15
+                     MAXLENGTH=30>
+
+        </dt>
+        <dt>
+            <label> Votre age : </label> <INPUT TYPE="text" NAME="age" SIZE=1
+                 MAXLENGTH=5>
+        </dt>
+        <dt>votre adresse :<TEXTAREA NAME="comment"
+            ROWS=5 COLS=40></TEXTAREA>
+        </dt>
+        <dt>
+            <label for="passwd"> Votre mot de passe: </label> :<INPUT TYPE ="password"
+                  NAME="passwd" ID ="passwd" SIZE=15 MAXLENGTH=30>
+
+        </dt>
+        <dt>
+            <label for="passwd" > retapez Votre mot de passe: </label> :<INPUT TYPE ="password"
+            NAME="passwd" ID ="passwd" SIZE=15 MAXLENGTH=30>
+
+        </dt>
+    </dl>
+</fieldset>
+<fieldset>
+    
+    <legend>gestion desgroupes et des options </legend>
+    <dl>
+        <dt>
+            Votre groupe : <INPUT TYPE ="radio" NAME =" option" ID="groupe 1"
+            VALUE="groupe 1"> groupe 1<INPUT TYPE ="radio" NAME =" option" ID="groupe 2"
+            VALUE="groupe 2"> groupe 2<INPUT TYPE ="radio" NAME =" option" ID="groupe 3"
+            VALUE="groupe 3"> groupe 3
+        </dt>
+        <dt> <label> Votre numero de carte d'etudiant : </label> <INPUT TYPE="text" NAME="numero"  SIZE=15
+            MAXLENGTH=30>
+        </dt>
+        <dt>
+            choisirez les options que vous deserez  :
+            <SELECT NAME=" choisirez les options que vous deserez" >
+                <OPTION VALUE="j"> j2ee
+                <OPTION VALUE="z"> android
+                <OPTION VALUE="n"> net
+                <OPTION VALUE="h"> html
+                <OPTION VALUE="p"> python
+                </SELECT>
+        </dt>
+    </dl>
+    </fieldset>
+    <INPUT TYPE="submit" VALUE="Valider"><INPUT TYPE="reset" VALUE="renitialser">
+</body>
+</html>
